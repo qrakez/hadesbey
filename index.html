@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="assets/styles/style.css">
   <link rel="icon" type="image/png" href="assets/icons/favicon.png">
 </head>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="73d3702c-768e-4cae-8313-d84c3b96722d"></script>
 
 <body>
   <div id="loader">
@@ -21,9 +22,9 @@
     <button class="modal-close" onclick="closeModal()">×</button>
     <img src="assets/logolar/reklam.png" alt="Logo" class="modal-logo">
     <p class="modal-subtitle">SİZE BİR MESAJI VAR !</p>
-    <h2 class="modal-title">2000 TL HOŞGELDİN BONUSU</h2>
-    <p class="modal-desc">Şimdi Yararlanın!</p>
-    <a href="#" class="modal-btn">ŞİMDİ GİRİŞ YAP</a>
+    <h2 class="modal-title">REKLAM ALANI</h2>
+    <p class="modal-desc">Size Özel Promosyonlar!</p>
+    <a href="https://t.me/hadesbeymarketing" class="modal-btn" id="signup-button" data-umami-event="splash">ŞİMDİ GİRİŞ YAP</a>
   </div>
 </div>
 
@@ -38,134 +39,141 @@
       <a class="kick" href="#"><img src="assets/social/kick.png" alt="Kick Logo"></a>
     </div>
     <div class="buttons">
-      <button class="etkinlik"><img src="assets/icons/ic-2.png" alt=""> Etkinlik</button>
-      <button class="etkinlik-kanali"><img src="assets/icons/ic-3.png" alt="" id="gift">Etkinlik Kanalımız</button>
-      <a href="https://t.me/+-F39XUReQVE5ZjA0" style="text-decoration: none;"><button class="sohbet-kanali"><img src="assets/icons/ic-1.png" alt="">Sohbet Kanalımız</button></a>
+      <button class="hadescoin-btn" id="signup-button" data-umami-event="hadescoin" onclick="window.location.href='https://hadescoin.xyz/register.php?ref=HADES35232745'">
+  <img src="assets/icons/ic-2.png" alt=""> Hadescoin V.1.0
+</button>
+      <a href="https://t.me/hadesbeykod" style="text-decoration:none;">
+      <button class="etkinlik-kanali" id="signup-button" data-umami-event="telegram1"><img src="assets/icons/ic-3.png" alt="" id="gift">Bonuslu KOD Kanalımız</button>
+      </a>
+      <a href="https://t.me/+-F39XUReQVE5ZjA0" style="text-decoration: none;"><button class="sohbet-kanali" id="signup-button" data-umami-event="telegram2"><img src="assets/icons/ic-1.png" alt="">Sohbet Kanalımız</button></a>
     </div>
   </header>
 
-  <div class="scrolling-bar">
-    <div class="scrolling-fixed">
-      <span class="star-icon">⭐</span> ÖZEL SİTELER
-    </div>
-    <div class="scrolling-track">
-      <div class="scrolling-logos">
-        <a href="https://site1.com" class="scrolling-card" target="_blank">
-          <img src="assets/logolar/reklam.png" alt="Fixbet">
-          <button style="background-color: green;">GİRİŞ YAP</button>
-        </a>
-        <a href="https://site2.com" class="scrolling-card" target="_blank">
-          <img src="assets/logolar/reklam.png" alt="Site 2">
-          <button style="background-color: green;">GİRİŞ YAP</button>
-        </a>
-        <a href="https://site2.com" class="scrolling-card" target="_blank">
-          <img src="assets/logolar/reklam.png" alt="Site 2">
-          <button style="background-color: green;">GİRİŞ YAP</button>
-        </a>
-        <a href="https://site2.com" class="scrolling-card" target="_blank">
-          <img src="assets/logolar/reklam.png" alt="Site 2">
-          <button style="background-color: green;">GİRİŞ YAP</button>
-        </a>
-        <a href="https://site2.com" class="scrolling-card" target="_blank">
-          <img src="assets/logolar/reklam.png" alt="Site 2">
-          <button style="background-color: green;">GİRİŞ YAP</button>
-        </a>
-        <a href="https://site2.com" class="scrolling-card" target="_blank">
-          <img src="assets/logolar/reklam.png" alt="Site 2">
-          <button style="background-color: green;">GİRİŞ YAP</button>
-        </a>
-        
-      </div>
-    </div>
-  </div>
   
 
   
   <div class="promo-wrapper">
    
   <div class="content-column">
-    <a href="#"><img class="gif-banner" src="assets/gif/banner.gif" alt="GIF Banner"></a>
-    <div class="promo-container">
-      <div class="card">
-        <div class="vip-tag"><img src="assets/icons/vip.jpg" alt="VIP" width="16" height="16"></div>
-        <div>
-          <img src="assets/logolar/reklam.png" alt="Logo" class="logo">
-          <div class="title">2000 TL HOŞGELDİN BONUSU</div>
-          <div class="desc">Size özel promosyonlar</div>
-        </div>
-        <button class="btn">GİRİŞ YAP</button>
-      </div>
-      <div class="card">
+   
+    <div class="promo-container" style="margin-top:10px;">
+         <div class="card">
           <div class="vip-tag"><img src="assets/icons/vip.jpg" alt="VIP" width="16" height="16"></div>
           <div>
-            <img src="assets/logolar/reklam.png" alt="Logo" class="logo">
-            <div class="title">2000 TL HOŞGELDİN BONUSU</div>
-            <div class="desc">Size özel promosyonlar</div>
+            <img src="assets/logolar/reklam.png" alt="Logo" class="logo" style="width: 100px; height: 70px;">
+          <div class="title">REKLAM ALANI</div>
+            <div class="desc">reklam</div>
           </div>
-          <button class="btn">GİRİŞ YAP</button>
+           <button class="btn" style="background-color:orange;" id="signup-button" data-umami-event="1.sıra" onclick="window.location.href='https://t.me/hadesbeymarketing'">GİRİŞ YAP</button>
         </div>
-        <div class="card">
+       <div class="card">
           <div class="vip-tag"><img src="assets/icons/vip.jpg" alt="VIP" width="16" height="16"></div>
           <div>
-            <img src="assets/logolar/reklam.png" alt="Logo" class="logo">
-            <div class="title">2000 TL HOŞGELDİN BONUSU</div>
-            <div class="desc">Size özel promosyonlar</div>
+            <img src="assets/logolar/reklam.png" alt="Logo" class="logo" style="width: 100px; height: 70px;">
+          <div class="title">REKLAM ALANI</div>
+            <div class="desc">reklam</div>
           </div>
-          <button class="btn">GİRİŞ YAP</button>
+           <button class="btn" style="background-color:orange;" id="signup-button" data-umami-event="1.sıra" onclick="window.location.href='https://t.me/hadesbeymarketing'">GİRİŞ YAP</button>
         </div>
         <div class="card">
           <div class="vip-tag"><img src="assets/icons/vip.jpg" alt="VIP" width="16" height="16"></div>
           <div>
-            <img src="assets/logolar/reklam.png" alt="Logo" class="logo">
-            <div class="title">2000 TL HOŞGELDİN BONUSU</div>
-            <div class="desc">Size özel promosyonlar</div>
+            <img src="assets/logolar/merso.gif" alt="Logo" class="logo" style="width: 150px; height: 50px;">
+            <div class="title">333₺ DENEME BONUSU</div>
+            <div class="desc">HER GÜN İLK YATIRIMA %100 FREESPİN!</div>
           </div>
-          <button class="btn">GİRİŞ YAP</button>
+          <button class="btn" style="background-color:orange;" onclick="window.location.href='https://t2m.io/hadess'">GİRİŞ YAP</button>
         </div>
         <div class="card">
           <div class="vip-tag"><img src="assets/icons/vip.jpg" alt="VIP" width="16" height="16"></div>
           <div>
-            <img src="assets/logolar/reklam.png" alt="Logo" class="logo">
-            <div class="title">2000 TL HOŞGELDİN BONUSU</div>
-            <div class="desc">Size özel promosyonlar</div>
+            <img src="assets/logolar/amg.png" alt="Logo" class="logo" style="width: 150px; height: 50px;">
+            <div class="title">333₺ DENEME BONUSU</div>
+            <div class="desc">HER GÜN İLK YATIRIMA %100 FREESPİN!</div>
           </div>
-          <button class="btn">GİRİŞ YAP</button>
+          <button class="btn" style="background-color:orange;" onclick="window.location.href='https://t2m.io/hades'">GİRİŞ YAP</button>
         </div>
         <div class="card">
           <div class="vip-tag"><img src="assets/icons/vip.jpg" alt="VIP" width="16" height="16"></div>
           <div>
-            <img src="assets/logolar/reklam.png" alt="Logo" class="logo">
-            <div class="title">2000 TL HOŞGELDİN BONUSU</div>
-            <div class="desc">Size özel promosyonlar</div>
+            <img src="assets/logolar/bay.png" alt="Logo" class="logo" style="width: 150px; height: 100px;">
+            <div class="title">500₺ DENEME BONUSU</div>
+            <div class="desc">HER GÜN İLK YATIRIMA %100 FREESPİN!</div>
           </div>
-          <button class="btn">GİRİŞ YAP</button>
+          <button class="btn" style="background-color:orange;" onclick="window.location.href='https://cutt.ly/prGEoOdL'">GİRİŞ YAP</button>
         </div>
         <div class="card">
           <div class="vip-tag"><img src="assets/icons/vip.jpg" alt="VIP" width="16" height="16"></div>
           <div>
-            <img src="assets/logolar/reklam.png" alt="Logo" class="logo">
-            <div class="title">2000 TL HOŞGELDİN BONUSU</div>
-            <div class="desc">Size özel promosyonlar</div>
+            <img src="assets/logolar/betorspin.gif" alt="Logo" class="logo" style="width: 150px; height: 100px;">
+            <div class="title">3000₺ DENEME BONUSU</div>
+            <div class="desc">HER GÜN İLK YATIRIMA %100 FREESPİN!</div>
           </div>
-          <button class="btn">GİRİŞ YAP</button>
+          <button class="btn" style="background-color:orange;" onclick="window.location.href='https://cutt.ly/TrGHARiu'">GİRİŞ YAP</button>
+        </div>
+ <div class="card">
+          <div class="vip-tag"><img src="assets/icons/vip.jpg" alt="VIP" width="16" height="16"></div>
+          <div>
+            <img src="assets/logolar/pasha.png" alt="Logo" class="logo" style="width: 150px; height: 50px;">
+            <div class="title">300₺ DENEME BONUSU</div>
+            <div class="desc">HER GÜN İLK YATIRIMA %100 FREESPİN!</div>
+          </div>
+          <button class="btn" style="background-color:orange;" onclick="window.location.href='https://cutt.ly/hadesbeypsh'">GİRİŞ YAP</button>
+        </div>
+
+        <div class="card">
+          <div class="vip-tag"><img src="assets/icons/vip.jpg" alt="VIP" width="16" height="16"></div>
+          <div>
+            <img src="assets/logolar/maxwin.png" alt="Logo" class="logo" style="width: 100px; height: 80px;">
+            <div class="title">300₺ DENEME BONUSU</div>
+            <div class="desc">Size Özel Promosyonlar</div>
+          </div>
+          <button class="btn" style="background-color:orange;" onclick="window.location.href='https://cutt.ly/hadesmaxw'">GİRİŞ YAP</button>
         </div>
         <div class="card">
           <div class="vip-tag"><img src="assets/icons/vip.jpg" alt="VIP" width="16" height="16"></div>
           <div>
-            <img src="assets/logolar/reklam.png" alt="Logo" class="logo">
-            <div class="title">2000 TL HOŞGELDİN BONUSU</div>
-            <div class="desc">Size özel promosyonlar</div>
+            <img src="assets/logolar/ramada.png" alt="Logo" class="logo" style="width: 100px; height: 70px;">
+            <div class="title">300₺ DENEME BONUSU</div>
+            <div class="desc">Size Özel Promosyonlar</div>
           </div>
-          <button class="btn">GİRİŞ YAP</button>
+          <button class="btn" style="background-color:orange;" onclick="window.location.href='https://cutt.ly/hadesbeyrmd'">GİRİŞ YAP</button>
+        </div>
+           <div class="card">
+          <div class="vip-tag"><img src="assets/icons/vip.jpg" alt="VIP" width="16" height="16"></div>
+          <div>
+            <img src="assets/logolar/super.png" alt="Logo" class="logo" style="width: 100px; height: 70px;">
+            <div class="title">250₺ DENEME BONUSU</div>
+            <div class="desc">Size Özel Promosyonlar</div>
+          </div>
+          <button class="btn" style="background-color:orange;" onclick="window.location.href='https://cutt.ly/hadesbyspr'">GİRİŞ YAP</button>
+        </div>
+          <div class="card">
+          <div class="vip-tag"><img src="assets/icons/vip.jpg" alt="VIP" width="16" height="16"></div>
+          <div>
+            <img src="assets/logolar/royal.png" alt="Logo" class="logo" style="width: 100px; height: 70px;">
+            <div class="title">300₺ DENEME BONUSU</div>
+            <div class="desc">Size Özel Promosyonlar</div>
+          </div>
+          <button class="btn" style="background-color:orange;" onclick="window.location.href='https://cutt.ly/hadesbeyryl'">GİRİŞ YAP</button>
+        </div>
+           <div class="card">
+          <div class="vip-tag"><img src="assets/icons/vip.jpg" alt="VIP" width="16" height="16"></div>
+          <div>
+            <img src="assets/logolar/betewin.png" alt="Logo" class="logo" >
+            <div class="title">555₺ DENEME BONUSU</div>
+            <div class="desc">Size Özel Promosyonlar</div>
+          </div>
+          <button class="btn" style="background-color:orange;" onclick="window.location.href='https://cutt.ly/orlRs1oD'">GİRİŞ YAP</button>
         </div>
     </div>
   </div>
  
   <div class="floating-banner" id="floatingBanner">
     <div class="floating-banner-inner">
-      <img src="assets/logolar/reklam.png" alt="Logo" class="floating-logo">
-      <span class="floating-text">%25 ANLIK VE SINIRSIZ KAYIP BONUSU</span>
-      <a href="#" class="floating-btn">ŞİMDİ GİRİŞ YAP</a>
+      <img src="assets/logolar/merso.gif" alt="Logo" class="floating-logo">
+      <span class="floating-text">333₺ DENEME BONUSU</span>
+      <a href="https://t2m.io/hadess" class="floating-btn" id="signup-button" data-umami-event="dsplash">ŞİMDİ KAYIT OL</a>
       <button class="close-banner" onclick="document.getElementById('floatingBanner').style.display='none'">×</button>
     </div>
   </div>
